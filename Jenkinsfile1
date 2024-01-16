@@ -12,7 +12,7 @@ pipeline {
     stages{
         stage('checkout'){
             steps{
-                git url:'https://github.com/Shwetha-h23b17/Integrate.git'
+                git url:'https://github.com/Shwetha-h23b17/mutipipeline.git'
                 echo 'checkout completed'
                 sh "echo hello ${FNAME}"
             }
